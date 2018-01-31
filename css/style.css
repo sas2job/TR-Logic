@@ -22,6 +22,7 @@
 \*------------------------------------*/
 
 [data-panel="left"] {
+  display: flex;
   position: absolute;
   top: 39px;
   left: -300px;
@@ -33,6 +34,7 @@
 }
 
 [data-panel="right"] {
+  display: flex;
   position: absolute; 
   top: 39px; 
   right: 95px; 
@@ -41,6 +43,21 @@
   border: 2px solid #000c1b; 
   border-left: none; 
   background-color: #d8d8d8;
+}
+
+.slide__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slide__content--title {
+  font-weight: bold;
+  padding: 0 5px;
+}
+
+.slide__content--content {
+  padding: 0 5px;
 }
 
 /*------------------------------------*\
