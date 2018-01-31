@@ -10,19 +10,6 @@
 </head>
 <body>
   <div class="container wrapper">
-    left aside
-   <style>
-   [data-panel="left"] {
-    width: 300px;
-    height: 625px; 
-    border: 2px solid #000c1b;
-    border-right: none;
-    background-color: #d8d8d8;
-    position: absolute;
-    left: -300px;
-    top: 39px;
-   }
- </style>
     <header class="page-header">
       <button class="page-header__slide" data-button data-id="left" data-direction="right"  data-mode="hide">left</button>
       <div class="page-header__title">header</div>
@@ -30,20 +17,8 @@
       <button class="page-header__slide" data-button data-id="right" data-direction="left" data-mode="hide">right</button>
     </header>
     <main>
-	  <div data-panel="left" style="">
-		
-	  </div>
-	  <div data-panel="right" style="
-    position: absolute; 
-    top: 40px; 
-    right: 95px; 
-    width: 300px; 
-    height: 625px; 
-    border: 2px solid #000c1b; 
-    border-left: none; 
-    background-color: #d8d8d8;
-    ">		
-	  </div>
+	  <div data-panel="left"></div>
+	  <div data-panel="right"></div>
       <div class="page-content">
         <div class="page-content__title">
           <div class="page-content__title--title">page description</div>
