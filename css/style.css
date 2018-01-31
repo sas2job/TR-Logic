@@ -1,0 +1,146 @@
+/*------------------------------------*\
+    #COMMON-TAGS
+\*------------------------------------*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  position: relative;
+}
+
+/*------------------------------------*\
+    #slide
+\*------------------------------------*/
+
+.slide__panel {
+
+}
+
+/*------------------------------------*\
+    #page-header
+\*------------------------------------*/
+
+.page-header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 630px;
+  height: 40px;
+  background-color: #cfe1f3;
+  border: 2px solid #000c1b;
+}
+
+.page-header__title {
+  font-weight: bold;
+  padding: 0 5px;
+}
+
+.page-header__slide {
+  width: 50px;
+  height: 25px;
+  margin: 0 5px;
+}
+
+/*------------------------------------*\
+    #page-content
+\*------------------------------------*/
+
+.page-content {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  width: 630px;
+  max-width: 1024px;
+  height: 665px;
+  background-color: #cfe1f3;
+  border: 2px solid #000c1b; 
+}
+
+.page-content__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+  width: 605px;
+  background-color: #cfe1f3;
+  border: 2px solid #000c1b;
+  padding: 0 5px;
+  margin: 55px 10px 10px 10px;
+}
+
+.page-content__title--title {
+  font-weight: bold;
+  padding: 0 5px;
+  margin: 0;
+}
+
+.page-content__title--content {
+  padding: 0 5px;
+  margin: 0;  
+}
+
+.page-content__wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.page-content__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.page-content__description--title {
+  padding: 0 5px; 
+  font-weight: bold;
+}
+
+.page-content__description--content {
+  padding: 0 5px;
+}
+
+.page-content__visible-block {
+  width: 200px;
+  height: 410px;
+  background-color: #dad1e9;
+  border: 2px solid #000c1b; 
+  float: right;
+  display: flex;/*!!!*/
+  align-items: center; /*!!!*/
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+.page-content__visible-block--content {
+  display: block;
+  width: 100%;
+}
+
+/*------------------------------------*\
+    #page-footer
+\*------------------------------------*/
+
+.page-footer {
+  display: flex;
+  align-items: center;
+  width: 630px;
+  height: 30px;
+  background-color: #cfe1f3;
+  border: 2px solid #000c1b;
+  border-top: none;
+}
+
+.page-footer__title {
+  font-weight: bold;
+  padding: 0 5px;
+}
