@@ -150,8 +150,8 @@
   background-color: #dad1e9;
   border: 2px solid #000c1b; 
   float: right;
-  display: flex;/*!!!*/
-  align-items: center; /*!!!*/
+  display: flex;
+  align-items: center;
   padding-left: 10px;
   margin-right: 10px;
 }
