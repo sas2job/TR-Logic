@@ -90,9 +90,6 @@
 \*------------------------------------*/
 
 .page-content {
-  display: flex;
-  align-items: baseline;
-  flex-wrap: wrap;
   width: 630px;
   max-width: 1024px;
   height: 665px;

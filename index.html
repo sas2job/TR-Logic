@@ -7,6 +7,7 @@
   <script src="js/jqueryui/external/jquery/jquery.js"></script>
   <script src="js/jqueryui/jquery-ui.min.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/jquery.sticky.js"></script>
 </head>
 <body>
   <div class="container wrapper">
@@ -47,7 +48,7 @@
             <div class="page-content__description--title">content</div>
             <div class="page-content__description--content">max-width: 1024px</div>
           </div>
-          <div class="page-content__visible-block">
+          <div id="sticker" class="page-content__visible-block">
             <div class="page-content__visible-block--content">
               alvays visible block
             </div>
@@ -62,6 +63,11 @@
       <div class="page-footer__title">footer</div>
       <div class="page-footer__content">(height: 30px)</div>
     </footer>
-  </div>    
+  </div> 
+  <script>
+    $(function(){
+      $("#sticker").sticky({topSpacing:0});
+    });
+  </script>   
 </body>
 </html>
